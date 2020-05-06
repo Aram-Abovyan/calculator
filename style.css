@@ -1,0 +1,68 @@
+body {
+	margin: 0;
+	padding: 0;
+	background-color: black;
+}
+
+.calculator {
+	position: absolute;
+	width: 400px;
+	border: 3px solid #141a8473;
+	margin-top: 100px;
+	margin-left: 400px;
+}
+
+.display {
+	height: 100px;
+	margin: 3px;
+	font-weight: 10;
+	border: 2px solid red;
+	background-color: black;
+	color: red;
+}
+
+.display > div {
+	overflow: hidden;
+}
+
+.display span {
+	float: right;
+	margin-top: 10px;
+	margin-right: 5px;
+}
+
+.small-display {
+	height: 40%;
+	font-size: 30px;
+}
+
+.large-display {
+	height: 60%;
+	font-size: 40px;
+}
+
+.keyboard {
+
+}
+
+.keyboard button {
+	height: 50px;
+	margin: 3px;
+	font-weight: bold;	
+	border: 1px solid red;
+	color: red;
+	background-color: black;
+	cursor: pointer;
+}
+
+.keyboard button:hover {
+	background-color: #141a8473; 
+}
+
+.large-button {
+	width: 191px;
+}
+
+.regular-button {
+	width: 90px;
+}
